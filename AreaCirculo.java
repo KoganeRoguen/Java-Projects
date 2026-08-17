@@ -6,7 +6,7 @@ public class AreaCirculo {
         
         final double PI = 3.14159;
 
-        System.out.print("Informe o raio do círculo: ");
+        System.out.print("> Informe o raio do círculo: _");
         double raio = scanner.nextDouble();
 
         double area = PI * Math.pow(raio, 2);
