@@ -4,15 +4,15 @@ public class soma {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("> Informe o primeiro valor: _");
-        double x = scanner.nextDouble();
+        System.out.print("> Informe o valor de A: _");
+        double a = scanner.nextDouble();
 
-        System.out.print("> Informe o segundo valor: _");
-        double y = scanner.nextDouble();
+        System.out.print("> Informe o valor de B: _");
+        double b = scanner.nextDouble();
 
-        double soma = x + y;
+        double x = a + b;
         
-        System.out.printf("\n> A soma dos valores " + x + " e " + y + " é: " + soma + "\n\n");
+        System.out.printf("\n X = %.0f \n\n", x);
         
         scanner.close();
     }
