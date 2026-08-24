@@ -23,7 +23,7 @@ public class maiornumero {
             maior = n3;
         }
 
-        System.out.println("O maior número é: " + maior);
+        System.out.println("\nO maior número é: " + maior + "\n");
 
         scanner.close();
     }
