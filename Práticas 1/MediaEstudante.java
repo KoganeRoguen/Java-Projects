@@ -15,7 +15,7 @@ public class MediaEstudante {
 
         double media = (nota1 + nota2 + nota3) / 3;
 
-        System.out.printf("A média aritimética é: %.2f\n", media);
+        System.out.printf("\nA média aritimética é: %.2f\n\n", media);
 
         scanner.close();
     }
